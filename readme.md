@@ -5,6 +5,7 @@ To generate synthetic data see GenTS and to find the best model for a given data
 
 ## How to use
 GenTS: ./gen -var N -dep N -instances N [-ivar N -idep N] [-noise R]
+
 SolverTS: ./test [-training R] < dataFile
 
 
