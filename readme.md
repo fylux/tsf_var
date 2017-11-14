@@ -11,10 +11,18 @@ Make sure you have installed the dependencies:
  - GNU make 3.81 or later
  - Intel MKL 2017 or later
 
-## How to use
-GenTS: `./gen -var N -dep N -instances N [-ivar N -idep N] [-noise R]`
+## Getting Started
+### Building
+To build the program from the source code:
+`make start`
+### Running
+GenTS
 
-SolverTS: `./test [-training R] < dataFile`
+`./gen -var N -dep N -instances N [-ivar N -idep N] [-noise R]`
+
+SolverTS
+
+`./test [-training R] < dataFile`
 
 
 ## Authors
