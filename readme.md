@@ -14,6 +14,7 @@ Make sure you have installed the dependencies:
 ## Getting Started
 ### Building
 To build the program from the source code:
+
 `make start`
 ### Running
 GenTS
